@@ -12,6 +12,6 @@ Example connect task:
 
     gulp.task('connect', function() {
         connect.server({
-            'router': 'vendor/guttmann/silverstripe-gulp-connect-php-router/router.php'
+            'router': 'vendor/guttmann/silverstripe-gulp-connect-php/router.php'
         });
     }); 
