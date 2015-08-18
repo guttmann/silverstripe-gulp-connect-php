@@ -1,5 +1,5 @@
 {
-    "name": "guttmann/silverstripe-gulp-connect-php-router",
+    "name": "guttmann/silverstripe-gulp-connect-php",
     "description": "A router for gulp-connect-php to make it serve SilverStripe sites",
     "license": "MIT",
     "authors": [
