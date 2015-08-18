@@ -7,7 +7,7 @@ if (preg_match('/\.(?:png|jpg|jpeg|gif|css|js|woff|ttf|php)$/', $url)) {
 } else {
     $_SERVER['SCRIPT_NAME'] = '/framework/main.php';
     $_SERVER['SCRIPT_FILENAME'] = realpath('framework/main.php');
-    $_GET['URL'] = $url;
+    $_GET['url'] = $url;
     require_once('framework/main.php');
 }
 
